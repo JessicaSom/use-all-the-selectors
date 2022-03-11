@@ -25,7 +25,7 @@ nav ul {
   background-color: #b58900;
 }
 
-.dfn + strong {
+.dfn p + strong {
   color: #fff;
 }
 
@@ -53,5 +53,5 @@ li:nth-child(even) {
   background-color: #586e75;
 }
 
-li::nth-child(3) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
